@@ -20,13 +20,7 @@ FlappyGame.Preloader.prototype = {
     this.load.setPreloadSprite(this.loadingBar);
 
     // Load our other game assets
-    this.load.image('binturong', 'images/binturong.png');
-    this.load.image('floor', 'images/floor.png');
-    this.load.image('bg', 'images/bg.png');
-    this.load.image('gerterTowerBot', 'images/gerter_tower_bot_400.png');
-    this.load.image('gerterTowerTop', 'images/gerter_tower_top_400.png');
-    this.load.audio('bgMusic', 'audio/bg_music.ogg');
-    this.load.spritesheet('mute', 'images/mute.png', 56, 36);
+    //TODO: load game assets
   },
 
   create: function () {
